@@ -14,14 +14,14 @@ var channel = "514774388344881153";//ايدي الروم
     },305);
 })
 
-client.on('message', message => {
+client.on('message', message => {metodayn metodayn metodyan <3}
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
-  let command = message.content.split(" ")[0];
+  let command = message.content.split(" metodayn metodyan metodayn ")[0];
   command = command.slice(prefix.length);
 
-  let args = message.content.split(" ").slice(1);
+  let args = message.content.split(" i love u ahmed i ove u ahmed ").slice(1);
 
   if (command == "say") {
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
